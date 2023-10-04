@@ -1,0 +1,213 @@
+.project1 {
+    width: 20%;
+}
+
+body {
+    background-color: #F0F8FF;
+}
+
+.container button {
+    height: 70px;
+    width: 390px;
+    background-color: #000080;
+    color: white;
+    font-size: 26px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.footer {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 350px;
+}
+
+.footer h3 {
+    font-size: 40px;
+}
+
+#mypic:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.media {
+    height: 250px;
+    padding-left: 20px;
+}
+
+.media i {
+    padding-left: 20px;
+    font-size: 35px;
+}
+
+i {
+    font-size: 55px;
+}
+
+.media {
+    display: flex;
+}
+
+.projects {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    height: 500px;
+    padding: 12px 12px;
+    width: 100%;
+    align-items: center;
+}
+
+.mobile {
+    width: 27%;
+    height: 450px;
+    background-color: #F0F8FF;
+    margin-left: 100px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+}
+
+.web {
+    width: 27%;
+    height: 450px;
+    background-color: #F0F8FF;
+    margin-left: 10px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+}
+
+.teaching {
+    width: 27%;
+    height: 450px;
+    background-color: #F0F8FF;
+    margin-left: 10px;
+    border-radius: 7px;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid lightgray;
+}
+
+.teaching p {
+    font-size: 20px;
+}
+
+@keyframes example {
+    from {
+        border: 5px solid white;
+    }
+    to {
+        border: 7px solid orange;
+    }
+}
+
+i :hover {
+    color: yellow;
+}
+
+.web p {
+    font-size: 20px;
+}
+
+.mobile p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#mypic {
+    height: 410px;
+    width: 320px;
+}
+
+.container p {
+    color: gray;
+}
+
+.container {
+    text-align: center;
+    display: block;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 20px;
+}
+
+.web_projects {
+    display: flex;
+    height: 2500px;
+}
+
+.project1 {
+    display: block;
+    margin-top: 20px;
+}
+
+.project1 img {
+    width: 700px;
+    height: 800px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        text-align: center;
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
+    .skills {
+        display: block;
+        height: 1500px;
+        width: 100%;
+        align-items: center;
+    }
+    .mobile {
+        width: 100%;
+        height: 450px;
+        background-color: rgb(232, 232, 241);
+        margin-left: 1px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    .web {
+        width: 100%;
+        height: 450px;
+        background-color: rgb(231, 238, 231);
+        margin-left: 1px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+    .teaching {
+        width: 100%;
+        height: 450px;
+        background-color: rgb(253, 250, 245);
+        margin-left: 1px;
+        border-radius: 7px;
+        margin-top: 10px;
+    }
+}

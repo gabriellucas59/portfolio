@@ -1,0 +1,135 @@
+.reg{
+    margin-top:40px;
+      width:70%;
+      height:auto;
+      padding-left:100px;
+    }
+    .form-horizontal{
+    position:relative;
+    
+    
+    
+    }
+    h1{
+    
+    margin-top:500px;
+    
+    }
+    @media screen and (max-width: 1009px) and (min-width: 100px) {
+    .reg{
+    width:100%;
+    padding-left:2px;
+    
+    }
+    
+    
+    
+    }
+    
+    
+
+
+.nav{
+    width: 100% !important;
+height:60px;
+display: flex;
+background-color: darkred;
+margin-top: 0px;
+top:0;
+
+}
+.nav a{
+color: white;
+margin-top: 13px;
+text-decoration: none;
+padding: 12px 11px;
+}
+#hide,#show{
+    display: none;
+    
+              }
+              .dropbtn {
+                background-color: darkred;
+                color: white;
+                padding: 10px;
+                font-size: 14px;
+                border: none;
+                cursor: pointer;
+                margin-top:15px;
+                position:relative;
+            }
+            
+            /* The container <div> - needed to position the dropdown content */
+            .dropdown {
+                position: relative;
+                display: inline-block;
+                height: 40px;
+            }
+            
+            /* Dropdown Content (Hidden by Default) */
+            .dropdown-content {
+                display: none;
+                position: relative;
+                background-color: darkred;
+                min-width: 150px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+            
+            /* Links inside the dropdown */
+            .dropdown-content a {
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            
+            /* Change color of dropdown links on hover */
+            .dropdown-content a:hover {background-color: #f1f1f1}
+            
+            /* Show the dropdown menu on hover */
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            
+            /* Change the background color of the dropdown button when the dropdown content is shown */
+            .dropdown:hover .dropbtn {
+                background-color: darkred;
+            }
+            
+            
+            
+
+
+
+@media screen and (max-width: 1009px) and (min-width: 100px) {
+    
+
+    #show{
+    display: block;
+    background-color:darkred ;
+    color:white;
+    font-size: 20px;
+    }
+    #hide{
+      display:none;
+      background-color:darkred ;
+      color:white;
+      font-size: 30px;
+      }
+      .dropdown {
+        position: relative;
+        display: none;
+    }
+    
+    .nav a{
+    display:none;
+    position: relative;
+    }
+    .nav{
+      display: block !important;
+    }
+    .nav #kamwa{
+    display:none;
+    
+    
+    }
